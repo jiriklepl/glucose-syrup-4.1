@@ -1,0 +1,8 @@
+*.o
+*.or
+*.a
+depend.mk
+/simp/glucose
+/parallel/glucose-syrup
+
+/usr
