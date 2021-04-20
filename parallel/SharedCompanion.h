@@ -56,10 +56,10 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 #ifndef SharedCompanion_h
 #define SharedCompanion_h
-#include "core/SolverTypes.h"
-#include "parallel/ParallelSolver.h"
-#include "parallel/SolverCompanion.h"
-#include "parallel/ClausesBuffer.h"
+#include "glucose/core/SolverTypes.h"
+#include "glucose/parallel/ParallelSolver.h"
+#include "glucose/parallel/SolverCompanion.h"
+#include "glucose/parallel/ClausesBuffer.h"
 
 namespace Glucose {
 

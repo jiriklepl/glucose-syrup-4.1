@@ -53,15 +53,15 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 #include <zlib.h>
 
 
-#include "utils/System.h"
-#include "utils/ParseUtils.h"
-#include "utils/Options.h"
-#include "core/Dimacs.h"
-#include "core/SolverTypes.h"
+#include "glucose/utils/System.h"
+#include "glucose/utils/ParseUtils.h"
+#include "glucose/utils/Options.h"
+#include "glucose/core/Dimacs.h"
+#include "glucose/core/SolverTypes.h"
 
-#include "simp/SimpSolver.h"
-#include "parallel/ParallelSolver.h"
-#include "parallel/MultiSolvers.h"
+#include "glucose/simp/SimpSolver.h"
+#include "glucose/parallel/ParallelSolver.h"
+#include "glucose/parallel/MultiSolvers.h"
 
 using namespace Glucose;
 
