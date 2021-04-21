@@ -1,12 +1,12 @@
 #!/bin/sh
 
+ROOT="glucose-4.1"
 
+BIN="$ROOT/usr/bin"
+LIB="$ROOT/usr/lib"
+GLUCOSE="$ROOT/usr/include/glucose"
 
-BIN="usr/bin"
-LIB="usr/lib"
-GLUCOSE="usr/include/glucose"
-
-rm -r "usr"
+rm -r "$ROOT/usr"
 mkdir -p $BIN
 mkdir -p $LIB
 mkdir -p $GLUCOSE
@@ -29,5 +29,4 @@ do
 done
 
 
-dpkg-deb --build --root-owner-group .
-mv ..deb glucose-4.1-1.deb
+dpkg-deb --build --root-owner-group "glucose-4.1"

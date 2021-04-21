@@ -5,5 +5,5 @@ depend.mk
 /simp/glucose
 /parallel/glucose-syrup
 
-/usr
+/glucose-4.1/usr
 /*.deb

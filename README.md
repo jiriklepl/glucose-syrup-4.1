@@ -20,7 +20,7 @@ Changelog
 ## To install the debian package:
 
 ```sh
-dpkg -i glucose-4.1-1.deb
+dpkg -i glucose-4.1.deb
 ```
 
 ## Usage:
