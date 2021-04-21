@@ -29,4 +29,4 @@ do
 done
 
 
-dpkg-deb --build --root-owner-group "glucose-4.1"
+dpkg-deb --build --root-owner-group "$ROOT"
