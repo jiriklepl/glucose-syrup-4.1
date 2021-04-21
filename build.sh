@@ -13,8 +13,7 @@ mkdir -p $GLUCOSE
 
 PWD="$PWD/simp" make -C simp
 PWD="$PWD/parallel" make -C parallel
-PWD="$PWD/parallel" make -C parallel
-PWD="$PWD/simp" make -C parallel libr LIB=glucose
+PWD="$PWD/parallel" make -C parallel libr LIB=glucose
 
 cp -t $LIB parallel/libglucose.a
 
